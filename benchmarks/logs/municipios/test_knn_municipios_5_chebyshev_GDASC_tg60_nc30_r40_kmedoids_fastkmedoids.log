@@ -1,0 +1,19 @@
+2024-07-16 10:35:58,991 - root - ------------------------------------------------------------------------
+2024-07-16 10:35:58,991 - root -                           plotting Searching
+2024-07-16 10:35:58,992 - root - ------------------------------------------------------------------------
+
+2024-07-16 10:35:58,992 - root - 
+2024-07-16 10:35:58,992 - root - ---- Searching the 5 nearest neighbors within GDASC over municipios dataset using chebyshev distance. ----
+2024-07-16 10:35:58,992 - root - 
+2024-07-16 10:35:58,992 - root - ---- GDASC Parameters - tam_grupo=60 - n_centroids=30 - radius=40 - algorithm=kmedoids - implementation=fastkmedoids ----
+2024-07-16 10:35:58,999 - root - Loading train and test set from ./data/municipios_train_test_set.hdf5
+
+2024-07-16 10:35:59,042 - GDASC.gdasc_ - tree time=0.03944435899995824 seconds
+2024-07-16 10:36:09,731 - root - Search time = 10.688710254 seconds
+
+2024-07-16 10:36:09,732 - root - Average time spent in searching a single point = 0.10688710254
+2024-07-16 10:36:09,732 - root - Speed (points/s) = 9.355665709300833
+
+2024-07-16 10:36:09,744 - root - Neighbors stored at ./benchmarks/NearestNeighbors/municipios/knn_municipios_5_chebyshev_GDASC_tg60_nc30_r40_kmedoids_fastkmedoids.hdf5
+2024-07-16 10:36:09,749 - root - ------------------------------------------------------------------------
+
